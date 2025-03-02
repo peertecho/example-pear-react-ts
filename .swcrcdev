@@ -2,10 +2,6 @@
   {
     "test": ".*\\.ts$",
     "jsc": {
-      "baseUrl":"./",
-      "paths": {
-         "@/*": ["src/*"]
-      },
       "parser": {
         "syntax": "typescript"
       }
@@ -14,10 +10,6 @@
   {
     "test": ".*\\.tsx$",
     "jsc": {
-      "baseUrl":"./",
-      "paths": {
-         "@/*": ["src/*"]
-      },
       "parser": {
         "syntax": "typescript",
         "jsx": true
